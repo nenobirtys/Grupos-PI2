@@ -1,0 +1,64 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+body,button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+	border-style: groove;
+}
+ 
+/*margin do botão*/
+.campo {
+    margin-bottom: 1em;
+}
+ 
+
+/*manter centralizado formulario*/ 
+fieldset.grupo .campo {
+    float:  center;
+    margin-right: 1em;
+}
+ /*muda a cor da caixa*/
+ .campo input:focus,.campo select:focus,.campo textarea:focus  {
+    background: #B7C3C0;
+}
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    height: 27px;
+    line-height: 27px;
+    border: solid 1px #00BBD4;
+}
+
+input[type="submit"] {
+  float: center;  
+  color: #FFF;
+    width: 100px;
+    height: 27px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: solid 1px #B7C3C0;
+    background: #385965;
+}
+  
+  input[type="reset"] {
+  float: center;  
+  color: #FFF;
+    width: 100px;
+    height: 27px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: solid 1px #B7C3C0;
+    background: #385965;
+  }
+input:hover[type="submit"]{
+  background: #00BBD4;
+   }
+input:hover[type="reset"]{
+ background: #00BBD4;
+  }
+
